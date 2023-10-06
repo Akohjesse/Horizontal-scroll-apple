@@ -1,23 +1,39 @@
 .flex {
-  display: flex;
+    display: flex;
 }
 span.word_wrap {
-  overflow: hidden;
-  display: inline-block;
+    overflow: hidden;
+    display: inline-block;
 }
 [data-animation="header"] span.word {
-  overflow-y: hidden;
-  position: relative;
+    overflow-y: hidden;
+    position: relative;
 }
 .child_wrap {
-  margin: 0 auto;
+    width: 70%;
+    margin: 0 auto;
 }
 .abs {
-  position: absolute;
+    position: absolute;
 }
 .ta_center {
-  text-align: center;
+    text-align: center;
 }
 .mg_au {
-  margin: 0 auto;
+    margin: 0 auto;
+}
+.material-symbols-outlined {
+    font-size: 19px;
+}
+.grey-txt {
+    color: $grey-txt;
+}
+.small {
+    color: $grey-txt;
+    max-width: 15rem;
+    font-size: toRem(18);
+    line-height: 1.3;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    align-self: flex-end;
 }

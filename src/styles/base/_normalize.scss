@@ -1,33 +1,39 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth;
-  font-size: calc(100vw / 1440 * 16);
+    scroll-behavior: smooth;
+    font-size: calc(100vw / 1440 * 16);
 }
 body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 h1 {
-  font-size: toRem(85);
+    font-size: toRem(85);
+    font-weight: 600;
+    line-height: toRem(80);
+    letter-spacing: -0.015em;
 }
 p {
-  line-height: 2rem;
+    font-size: toRem(39);
+    line-height: 1.2;
+    font-weight: 500;
 }
 section {
-  width: 100%;
+    width: 100%;
 }
 button {
-  outline: none;
-  font-family: inherit;
-  font-size: 1rem;
-  border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
 }
 img {
-  -webkit-user-drag: none;
-  user-select: none;
+    -webkit-user-drag: none;
+    user-select: none;
 }
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
